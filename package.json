@@ -29,19 +29,17 @@
 		"docs": "vite build",
 		"dev": "vite src/_docs --base ./",
 		"debug": "tsc --noEmit -w",
-		"test": "vitest",
-		"test:ui": "vitest --ui",
-		"test:coverage": "vitest --coverage"
+		"test": "vitest"
 	},
 	"packageManager": "yarn@4.18.0",
 	"dependencies": {
 		"esbuild": "^0.28.2",
 		"klales": "github:takty/klales",
 		"typescript": "^7.0.2",
-		"vite": "^8.2.1",
-		"vitest": "^4.1.11"
+		"vite": "^8.3.0",
+		"vitest": "^5.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^26.2.0"
+		"@types/node": "^26.5.1"
 	}
 }
